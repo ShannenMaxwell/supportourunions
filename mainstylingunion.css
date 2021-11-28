@@ -31,7 +31,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -53,15 +55,18 @@ table {
 .body-section {
 		margin: auto;
 		text-align: center;
-
 }
 
-h1 {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+h2 {text-transform: capitalize;
 }
 
 .tableau-container {
 	width: 600px;
+	margin: auto;
+}
+
+.timeline-container {
+	width: 100%;
 	margin: auto;
 }
 
@@ -75,12 +80,23 @@ h1 {
 	padding-top: 100px;
 }
 
+#second-section {
+	text-align: center;
+	background: url("banner2.jpg") no-repeat top;
+	background-size: 100%;
+	background-position:top;
+	background-attachment:fixed;
+	height: 30vw;
+	padding-top: 100px;
+	
+}
+
 .text-header {
 	font-size: 30px;
 	font-weight: 600;
 	padding: 10px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	margin: 100px 0 10px 0;
+	text-transform: uppercase;
 }
 
 .section-text {
