@@ -65,7 +65,7 @@ p {
 }
 .tableau-container {
 	max-width: 800px;
-	margin: auto;
+	margin:0 auto;
 	align-content: center;
 	padding-bottom: 20px;
 }
