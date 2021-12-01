@@ -60,14 +60,33 @@ table {
 h2 {text-transform: capitalize;
 }
 
+p {
+	font-size: 20px
+}
 .tableau-container {
-	width: 600px;
+	max-width: 800px;
 	margin: auto;
+	align-content: center;
+	padding-bottom: 20px;
+}
+
+.map-container {
+	max-width: 800px;
+	margin:0 auto;
+	align-content: center;
+	padding-bottom: 10px;
+}
+
+#flourish-container {
+	max-width: 800px;
+	margin: auto;
+	padding-bottom: 20px;
 }
 
 .timeline-container {
-	width: 100%;
+	width: 90%;
 	margin: auto;
+	padding-bottom: 20px;
 }
 
 #first-section {
@@ -81,6 +100,17 @@ h2 {text-transform: capitalize;
 }
 
 #second-section {
+	text-align: center;
+	background: url("banner1.jpg") no-repeat top;
+	background-size: 100%;
+	background-position:top;
+	background-attachment:fixed;
+	height: 30vw;
+	padding-top: 100px;
+	
+}
+
+#third-section {
 	text-align: center;
 	background: url("banner2.jpg") no-repeat top;
 	background-size: 100%;
@@ -102,6 +132,7 @@ h2 {text-transform: capitalize;
 .section-text {
 	width: 80%;
 	margin: auto;
+	padding-bottom: 100px;
 }
 
 .nav-bar {
@@ -124,7 +155,6 @@ h2 {text-transform: capitalize;
 	border-bottom: 3px solid white;
 	color: black;
 	
-	
 }
 a {
 	color: black;
@@ -134,4 +164,5 @@ a {
 .nav-bar-item:hover {
 	border-bottom: 3px solid teal;
 	transition: 0.5s;
+	
 }
