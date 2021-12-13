@@ -64,27 +64,33 @@ p {
 	font-size: 20px
 }
 .tableau-container {
-	max-width: 800px;
 	margin:0 auto;
 	align-content: center;
 	padding-bottom: 20px;
+	max-width: 600px;
 }
 
 .map-container {
-	max-width: 800px;
-	margin:0 auto;
-	align-content: center;
+	margin:auto;
+	align: center;
+	align-items: center;
 	padding-bottom: 10px;
 }
 
 #flourish-container {
-	max-width: 800px;
+	max-width: 600px;
 	margin: auto;
 	padding-bottom: 20px;
 }
 
 .timeline-container {
 	width: 90%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.infogram-embed {
+	max-width: 600px;
 	margin: auto;
 	padding-bottom: 20px;
 }
