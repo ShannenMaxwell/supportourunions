@@ -61,7 +61,7 @@ h2 {text-transform: capitalize;
 
 p {
 	font-size: 20px;
-	text-align: right;
+	text-align: left;
 }
 .tableau-container {
 	margin:0 auto;
@@ -97,7 +97,7 @@ p {
 }
 
 #first-section {
-  	text-align: right;
+  	text-align: left;
 	background: url("union-header.jpg") no-repeat top;
 	background-size: 100%;
 	background-position:top;
@@ -107,7 +107,7 @@ p {
 }
 
 #second-section {
-	text-align: right;
+	text-align: left;
 	background: url("banner1.jpg") no-repeat top;
 	background-size: 100%;
 	background-position:top;
@@ -118,7 +118,7 @@ p {
 }
 
 #third-section {
-	text-align: right;
+	text-align: left;
 	background: url("banner2.jpg") no-repeat top;
 	background-size: 100%;
 	background-position:top;
@@ -142,7 +142,7 @@ p {
 	margin: auto;
 	padding-bottom: 100px;
 	padding-top: 100px;
-	text-align: right;
+	text-align: left;
 }
 
 .nav-bar {
