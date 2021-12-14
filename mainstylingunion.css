@@ -97,7 +97,7 @@ p {
 }
 
 #first-section {
-  	text-align: center;
+  	text-align: right;
 	background: url("union-header.jpg") no-repeat top;
 	background-size: 100%;
 	background-position:top;
@@ -107,7 +107,7 @@ p {
 }
 
 #second-section {
-	text-align: center;
+	text-align: right;
 	background: url("banner1.jpg") no-repeat top;
 	background-size: 100%;
 	background-position:top;
@@ -118,7 +118,7 @@ p {
 }
 
 #third-section {
-	text-align: center;
+	text-align: right;
 	background: url("banner2.jpg") no-repeat top;
 	background-size: 100%;
 	background-position:top;
@@ -141,6 +141,7 @@ p {
 	width: 80%;
 	margin: auto;
 	padding-bottom: 100px;
+	padding-top: 100px;
 	text-align: right;
 }
 
