@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
 
 ol, ul {
@@ -54,7 +54,6 @@ table {
 
 .body-section {
 		margin: auto;
-		text-align: center;
 }
 
 h2 {text-transform: capitalize;
@@ -135,6 +134,7 @@ p {
 	padding: 10px;
 	margin: 100px 0 10px 0;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .section-text {
