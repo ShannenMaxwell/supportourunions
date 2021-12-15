@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-family:"Helvetica Neue", "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
 
 ol, ul {
@@ -143,6 +143,7 @@ p {
 	padding-bottom: 40px;
 	padding-top: 40px;
 	text-align: left;
+	font-weight: 500;
 }
 
 .nav-bar {
@@ -158,6 +159,7 @@ p {
 	align-content: flex-start;
 	flex-direction: row;
 	justify-content: center;
+	font-style: italic; 
 }
 
 .nav-bar-item {
