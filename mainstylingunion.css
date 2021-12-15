@@ -135,6 +135,7 @@ p {
 	margin: 100px 0 10px 0;
 	text-transform: uppercase;
 	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
 
 .section-text {
@@ -152,6 +153,7 @@ p {
 	width: 100%;
 	background-color: white;
 	z-index: 3;
+
 }
 
 .nav-bar-list {
@@ -159,7 +161,9 @@ p {
 	align-content: flex-start;
 	flex-direction: row;
 	justify-content: center;
-	font-style: italic; 
+	box-shadow: 1px 2px 5px 1px gray;
+	text-transform: uppercase;
+
 }
 
 .nav-bar-item {
@@ -176,5 +180,4 @@ a {
 .nav-bar-item:hover {
 	border-bottom: 3px solid teal;
 	transition: 0.5s;
-	
 }
